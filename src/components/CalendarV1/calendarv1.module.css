@@ -1,0 +1,67 @@
+.calendar{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.today {
+    /*background-color: #2799C8;*/
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.monthContainer {
+    margin-bottom: 50px;
+}
+
+td {
+    padding: 10px;
+}
+
+.h2 {
+    color: #999;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.notToday {
+    color: #181818;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.th {
+    color: #181818;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.selected {
+    background-color: #2799C8; /* Зеленый фон для выбранных дат */
+    color: white;
+    border-radius: 50px;
+}
+
+.between {
+    background: black;
+    color: #fff;
+}
+
+.disabled {
+    background-color: #ccc; /* Стиль для disabled дней (серый фон) */
+    color: #666; /* Цвет текста для disabled дней */
+    cursor: not-allowed; /* Запрещаем курсор при наведении на disabled дни */
+}
